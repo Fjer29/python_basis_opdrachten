@@ -4,6 +4,11 @@
 
 # Hier komt je code...
 
-my_dict = ...
+my_dict = {
+    "naam": "Willem",
+    "achternaam": "van der Broek",
+    "leeftijd": 23,
+    "favoriete kleur": "Blauw"
+}
 
-print()
+print(my_dict)
