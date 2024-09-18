@@ -16,4 +16,5 @@ voornaam = "albert"
 achternaam = "einstein"
 
 
-print()
+print("O mamma mia, wat maak je toch heerlijke pizza's")
+print(voornaam, achternaam, "zei ooit: 'als je niks fout doet, dan kun je ook niks leren'")
