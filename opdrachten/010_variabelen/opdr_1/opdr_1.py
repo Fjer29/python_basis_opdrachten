@@ -4,5 +4,11 @@
 
 # Hier komt je code...
 
-my_list = list[13, "wat een weertje", 12.5, 8]
+mylist = (13, "wat een weertje", 12.5, 8)
+
+my_list = list(mylist)
 print(my_list)
+
+
+my_list2 = [13, "wat een weertje", 12.5, 8]
+print(my_list2)
