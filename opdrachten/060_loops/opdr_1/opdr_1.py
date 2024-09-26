@@ -7,3 +7,10 @@
 # Hier start de for-loop....
 
 my_list = []
+nummer = 0
+
+for _ in range(10):
+    nummer += 1
+    my_list.append(nummer)
+
+print(my_list)
