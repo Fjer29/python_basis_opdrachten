@@ -2,7 +2,7 @@
 # Naam student:
 # Groep:
 
-
+mylist = []
 dict_1 = {
     "id": 0,
     "voornaam": "Donald",
@@ -24,6 +24,9 @@ dict_4 = {
     "achternaam": "Paardepoot"
 }
 
-mylist = list[dict_1, dict_2, dict_3, dict_4]
+mylist.append(dict_1)
+mylist.append(dict_2)
+mylist.append(dict_3)
+mylist.append(dict_4)
 
-print(mylist)
+print(mylist[1]["voornaam"], mylist[1]["achternaam"])
