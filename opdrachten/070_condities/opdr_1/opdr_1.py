@@ -6,7 +6,10 @@
 
 # Hier start de for-loop....
 
-my_list = []
-
 #for loop
+my_list = [x for x in range(1, 11)]
+
 #if statement
+for num in my_list:
+    if num > 4:
+        print(num)
