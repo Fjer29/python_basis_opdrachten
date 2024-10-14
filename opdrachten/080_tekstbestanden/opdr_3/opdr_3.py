@@ -29,17 +29,3 @@ for teken in zin:
 encrypted_zin = ''.join(character_codes)
 
 print(encrypted_zin)
-
-
-
-
-#character_codes = [ord(teken) for teken in zin]
-#encrypted_tekst = []
-
-#for character in character_codes:
-#    character = character + 5
-#    encrypted_tekst.append(character)
-
-#encrypted_zin = ''.join(chr(code) for code in encrypted_tekst)
-
-#print(encrypted_zin)
